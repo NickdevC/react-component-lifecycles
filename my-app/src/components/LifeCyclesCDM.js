@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LifeCyclesCDMChild from './LifeCyclesCDMChild';
 
 export class LifeCyclesCDM extends Component {
     constructor(props) {
@@ -27,6 +28,7 @@ export class LifeCyclesCDM extends Component {
         return (
             <div>
                 <h1>{this.state.data}</h1>
+                <LifeCyclesCDMChild />
             </div>
         )
     }
